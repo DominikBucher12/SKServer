@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage                = "https://github.com/SlackKit/SKServer"
   s.license                 = 'MIT'
   s.author                  = { "Peter Zignego" => "peter@launchsoft.co" }
-  s.source                  = { :git => "https://github.com/DominikBucher12/SKServer.git" }
+  s.source                  = { :git => "https://github.com/DominikBucher12/SKServer.git", :branch => "master", :tag => s.version.to_s }
   s.social_media_url        = 'https://twitter.com/pvzig'
   s.swift_version           = '4.2'
   s.ios.deployment_target   = '12.0'
