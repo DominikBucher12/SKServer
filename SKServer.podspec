@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
   s.frameworks              = 'Foundation'
   s.dependency                'SKCore'
   s.dependency                'SKWebAPI'
-  s.dependency                'Swifter'
+  s.dependency                'Swifter' '~> 1.4.3'
 end
 
